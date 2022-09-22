@@ -1,4 +1,4 @@
-body {background-color: #f9d5e5; }
+body {background-color: #ff0073; }
 
 div.card>img {
     background-color: dimgray;
@@ -6,7 +6,7 @@ div.card>img {
 }
 
 div.navbar {
-    color: aqua;
+    color: rgb(4, 238, 238);
 }
 
 .menu-bar {
