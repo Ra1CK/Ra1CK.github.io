@@ -1,53 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ra1CK</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
 
+<body>
+    <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="https://lh3.googleusercontent.com/uIgMbmq0BuRuR7MdylsbfQ3hdCD7k9lKitPpNMo85jNKEiuvoFKk27-5xeT61TdUYAlh6IkNzeoupieR3HJHLPc1N5mjBJZof6ChjIsQ8iKVpmiFZ4e6U9qqKpr5e6c9DIzG9rCzo-mlrvX7_bqnmmyIgMda2s397ZCsbeG5x2KIYGdv0YXedHfrwuKHcRpn6nW2XSrkOc9EyZuk12uR34fblCOCek0BP-qCEZYD6DsnKQyzXOAHO2wCzcfN3j3QT9dw3oHhuc9QHYkkzggUPbj5k6lRxWY5PtQ_drCyXu4XO8ewQyCgLxnqrI8DL3u4d2zyOlIufrjJxwgYrsq21wbCriqvpIk_puXjNFwsETmFC-kBPTKaPJJKlOwJbXislfwLwspEvdVstwQ5zWLSnpcbSS8OATgiJ0I_BbsWu5zMv6NAvAw7Z4qHK2EM2LkDmmUQtGsYMhVCgyd54zzhTPuDO8Vx63j3TZGwhSMixxrwi2xU_14qXKmLX7sKf4uhKjHla7zvicGp0mVQZBkKeNrpxksZEToSSHgSq585D06Tb15HSjQ_b7AUajL7tv8M6IoakFixAJclRHFuTdf37ApAYkhL6rB51KsehyYXJD0Xc7Bicn7WOTEhNjjG4hdKIf1OH3Ux2w4f2cjx0UoVdQJbKwwMqYldpsgrEQZsJ634G6cdofZCMRoYSJ45bEtrp0vfBEVxNI0fH921wKNrbcF9=w767-h937-no?authuser=0"
+                    class="d-inline-block align-top rounded-circle" height="30" width="30" />
+                Ra1CK
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#entradas_menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="entradas_menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="menu_inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="menu_desarrollo_web">Web</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="menu_desarrollo_java">Java</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="menu_base_de_datos">Bases de datos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="menu_contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <div id="panel_inicio" class="panel">
+            <h2>Desarrollador Freelance</h2>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/CSS3_and_HTML5_logos_and_wordmarks.svg" alt="Desarrollo Web"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollo Web</h5>
+                            <p class="card-text">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>JavaScript Vanilla</li>
+                                <li>CSS3</li>
+                                <li>WebApps</li>
+                            </ul>
+                            </p>
+                            <a href="https://ra1ck.github.io" class="btn btn-primary">Ejemplo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Java.jpg" alt="Programación"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Programación</h5>
+                            <p class="card-text">
+                            <ol>
+                                <li>Lenguajes de Programación
+                                    <ol type="a">
+                                        <li>Bash</li>
+                                        <li>PowerShell</li>
+                                        <li>Python</li>
+                                        <li>Java</li>
+                                        <li>JavaScript</li>
+                                        <li>C (Arduino)</li>
+                                    </ol>
+                                </li>
+                                <li>Programación lado cliente (frontend)
+                                    <ol type="a">
+                                        <li>React </li>
+                                        <li>Angular</li>
+                                        <li>Android</li>
+                                    </ol>
+                                </li>
+                                <li>Programación lado servidor (backend)
+                                    <ol type="a">
+                                        <li>NodeJS</li>
+                                        <li>Spring Java</li>
+                                        <li>Java Servlets</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                            </p>
+                            <a href="#" class="btn btn-primary">Ejemplo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/database.jpeg" alt="Bases de datos"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Bases de datos</h5>
+                            <p class="card-text">
+                            <ol>
+                                <li>SQL
+                                    <ol type="i">
+                                        <li>Oracle</li>
+                                        <li>MySQL</li>
+                                    </ol>
+                                </li>
+                                <li>NoSQL
+                                    <ol type="i">
+                                        <li>Redis </li>
+                                        <li>Mongo DB</li>
+                                        <li>Firebase</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                            </p>
+                            <a href="https://ra1ck.github.io" class="btn btn-primary">Ejemplo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="panel_desarrollo_web" class="panel">
+            <h2>Desarrollo Web</h2>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/05/08/21/37/html5-3384039__340.png" alt="HTML5"/>
+                        <div class="card-body">
+                            <h5 class="card-title">HTML5</h5>
+                            <p class="card-text">
+                            Desarrollo de páginas web con HTML5 e implementación de Bootstrap, Javascript y CSS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://p2.piqsels.com/preview/361/304/884/coding-technology-css-internet.jpg" alt="CSS"/>
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">
+                            Personalización de páginas web usando CSS 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png" alt="JavaScript"/>
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">
+                            Uso de javascript para usar funciones web más avanzadas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="panel_desarrollo_java" class="panel">
+            <h2>Java</h2>
+            
+            <p>Desarrollo de aplicaciones Java. Programación orientada a objetos, documentación y creacion archivos Jar.</p>
+            <img src="https://cdn.pixabay.com/photo/2017/05/19/21/12/java-2327538_1280.png" height="500" width="700" alt="Java"/>
+        </div>
+        <div id="panel_base_de_datos" class="panel">
+            <h2>Bases de Datos</h2>
+            <p>Creación, edición y mantenimiento de Bases De Datos. Experiencia con Oracle.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Bases_de_datos_de_particulares.jpg" alt="Bases De Datos"/>
+        </div>
+        <div id="panel_contacto" class="panel">
+            <h2>Contacto</h2>
+            <p>Correo Electrónico: rawaninstituto@gmail.com</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+    <script src="js/controlador.js"> </script>
+    <script src="js/index.js"> </script>
 </body>
+
 </html>
